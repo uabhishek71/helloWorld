@@ -19,6 +19,6 @@ steps:
 
   - id: deployment
     name: "gcr.io/cloud-builders/docker"
-    args: ["build", "-t", "gcr.io/compute-engine-project-254107/golang-cd:$REVISION_ID", "-f", "Dockerfile", "."]
+    args: ["build", "-t", "gcr.io/testproject-254107/golang-cd:$REVISION_ID", "-f", "Dockerfile", "."]
 images:
   - "gcr.io/testproject-254107/golang-cd:$REVISION_ID"
