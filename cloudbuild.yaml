@@ -21,4 +21,4 @@ steps:
     name: "gcr.io/cloud-builders/docker"
     args: ["build", "-t", "gcr.io/compute-engine-project-254107/golang-cd:$REVISION_ID", "-f", "Dockerfile", "."]
 images:
-  - "gcr.io/compute-engine-project-254107/golang-cd:$REVISION_ID"
+  - "gcr.io/testproject-254107/golang-cd:$REVISION_ID"
